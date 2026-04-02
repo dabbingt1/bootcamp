@@ -76,7 +76,24 @@ public class primitives {
      int i20 = 100;
      long l20 = 200L;
 
-     //
+     // '9' -> char value
+     // c9 - > char variable
+     char c9 = '9';
+
+     //char + int -> int
+     // assogn 98 into c11
+     char c11 = 'a' + 1;
+     System.out.println(c11);//b
+
+     char c12 = 'a' + 25;
+     System.out.println(c12);//z
+
+     char ch1 = 'a';
+     char ch2 = 'b';
+
+     if (ch2 > ch1) {//compare ascii
+        System.out.println("ch2 ascii > ch1 ascii");}
+
 
     }
 }
