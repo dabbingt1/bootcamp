@@ -1,3 +1,5 @@
+
+
 public class Week1Revision {
     public static void main(String[] args) {
         System.out.println("hello");
@@ -81,6 +83,75 @@ public class Week1Revision {
         int ascii = ch2 + 1;
         System.out.println(ascii);
        
+        //operator
+        //Math : + - * / % ++ -- += -= *= /=
+
+        //comparison 
+        // primitive comparison
+        int age = 19;
+        boolean isAdult = age >=18;
+        if (!isAdult) {}
+        //String comparison 
+        String s10 = "Hello";
+        String s11 = new String("Hello");
+        System.out.println(s10 == s11);
+        System.out.println(s10.equals(s11));
+
+
+        // If + Switch (Conditional)
+        double price = 99.99;
+        int quantity = 10;
+        double amount = price * quantity;
+
+        //switch
+        // need break
+        // check single variable only ( Not range checking)
+        char grade = 'A';
+        switch (grade) {
+            case 'A':
+                //System.out
+        }
+
+
+
+        //For Loop
+        for (int i=0; i<3; i++){
+
+        }
+
+        String s = "hello";
+        boolean champ = false;
+        for (int i = 0; i < s.length() ; i++) {
+            System.out.println(s.charAt(i));
+
+        }
+
+        //hlo
+        //el
+        String t1 ="";
+        String t2= "";
+        for (int i=0; i<s.length(); i++) {
+            if ( i % 2 == 0) {
+                t1 += s.charAt(i);
+                } else{
+                    t2 += s.charAt(i);               
+            }
+        }
+        System.out.println(t1);
+        System.out.println(t2);
+
+        //counting -> target
+        //how many 'l' in the string
+        int countL = 0;
+        for ( int i = 0; i < s.length(); i++){
+            if (s.charAt(i) == 'l'){
+                countL++;
+            }
+        }
+        System.out.println(countL);
+
+        //Name Convension
+        
 
     }
 }
