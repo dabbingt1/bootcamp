@@ -7,7 +7,7 @@ public class JavaExercise3 {
     char ch = 'I';
     if (ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E' || ch == 'i' || ch == 'I' || ch == 'o' || ch == 'O' || ch == 'u' || ch == 'U') {
       System.out.println("The character is a vowel");
-    } else if (ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z') {
+    } else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
       System.out.println("The character is not a vowel");
     } else {
       System.out.println("The character is not an alphabet");
