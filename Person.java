@@ -34,17 +34,17 @@ public class Person {
         this.weight = weight;
     }
 
-           public boolean isOverWeight(){
+        public boolean isOverWeight(){
         if (this.weight > 100);
         return true;
-           }
+    }
     
        //base case
-       return false;
+       /*return false;
 
            public String bmigroup() {
         if (this.)
-       }
+       } */
 
     public static void main(String[] args) {
       Person p1 = new Person();    
@@ -56,8 +56,7 @@ public class Person {
        System.out.println(p1.getWeight()); 
     //print bmi
 
-    //gbf
-    //skl, atk, def, ca,
+    
 
     
     }

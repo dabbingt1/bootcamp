@@ -16,6 +16,8 @@ public class Customer {
         return this.totalOrderAmount() > 100_000;
     }
 
+   // public order order() {}
+
     public double totalOrderAmount() {
         BigDecimal sum = BigDecimal.ZERO;
         for ( int i = 0; i < this.orders.length; i++ ){
@@ -28,7 +30,9 @@ public class Customer {
     // ! implicitly empty constructor 
     public Customer(){
         System.out.println("Creating customer");
+
     }
+    
 
     // ! more than one constructor
     public Customer(String firstName, String lastName, char gender, LocalDate dob) {
@@ -80,10 +84,14 @@ public class Customer {
     Item i3 = new Item("dog", 120, 15);
     Order or2 = new Order(new Item[]{i3});
 
-    c4.orders = new Order[]{or1, or2};
+    c4.orders = new Order[]{or1};
 
     System.out.println("Order amount : " + c4.totalOrderAmount());
     System.out.println("Is VIP: " + c4.isVip());
+
+    
+
+    
 
     
     }

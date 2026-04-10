@@ -9,6 +9,7 @@ public class Order {
     }
 
     public Order(Item[] items){
+        this.items = items;
 
     }
 
